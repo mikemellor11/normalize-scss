@@ -47,7 +47,7 @@ gem 'chroma-sass', '~> 1.0'
 gem 'typey', '~> 1.0.0'
 ```
 
-2. If you use Compass, edit your `config.rb` file to add:
+2. Optionally, edit your `config.rb` file to add:
 
  ```ruby
 require 'chroma-sass'

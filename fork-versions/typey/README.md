@@ -40,7 +40,7 @@ In addition to copying these files to your Sass project, you'll also need to:
 gem 'typey', '~> 1.0.0'
 ```
 
-2. If you use Compass, edit your `config.rb` file to add:
+2. Optionally, edit your `config.rb` file to add:
 
  ```ruby
 require 'typey'

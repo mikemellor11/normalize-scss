@@ -14,19 +14,6 @@ describe('Fork versions', function() {
     });
   });
 
-  describe('Compass fork', function() {
-    it('should render properly', function() {
-      var sassyTest = new SassyTest({
-        fixtures: path.join(__dirname, 'fixtures/fork-versions/deprecated-compass'),
-        includePaths: [
-          // Path to fork version.
-          path.join(__dirname, '../fork-versions/deprecated-compass')
-        ]
-      });
-      return sassyTest.renderFixture('./');
-    });
-  });
-
   describe('Typey fork', function() {
     it('should render properly', function() {
       var sassyTest = new SassyTest({

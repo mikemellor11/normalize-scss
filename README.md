@@ -16,7 +16,7 @@ This Sass port currently adds:
 
 * Vertical rhythm mixins: Allowing you to alter the font-size, line-height and margins in Normalize’s output without hacking the library.
 * Optional Eyeglass support.
-* Several ready-to-fork versions that integrate typography Sass modules like Typey, style guides built with KSS, or the legacy Compass module.
+* Several ready-to-fork versions that integrate typography Sass modules like Typey, or style guides built with KSS.
 
 # normalize.css v5
 
@@ -44,7 +44,7 @@ Install using one of the following methods:
 * Install with [npm](http://npmjs.org/): `npm install --save normalize-scss`
 * Install with [Bower](http://bower.io/): `bower install --save normalize.scss`
 * Install with [Ruby Gem](https://rubygems.org/gems/normalize-scss): `gem install normalize-scss`<br>
-  and, if using Compass, add `require "normalize-scss"` to your config.rb file. Note: if you want to alter the _normalize.scss file after installation (see "how to use it" below), you can use the `gem list --details normalize-scss` command to show you where the normalize-scss files were installed.
+  and, optionally, add `require "normalize-scss"` to your config.rb file. Note: if you want to alter the _normalize.scss file after installation (see "how to use it" below), you can use the `gem list --details normalize-scss` command to show you where the normalize-scss files were installed.
 
 ## How to use it
 
@@ -55,7 +55,6 @@ You can use the Sass port of Normalize in one of several methods, following the 
 __Approach 1:__ Download and use normalize-scss as a starting point for your own project's base Sass, customising the values to match the design's requirements. (The best approach, _IMO_.)
   1. Copy the normalize-scss files to your sass directory so that you can alter it as you include it in your project. To aid with this method, normalize-scss includes several ready-made "fork" versions:
     * [fork-versions/default](fork-versions/default) - Fork for libSass or Ruby Sass
-    * [fork-versions/deprecated-compass](fork-versions/deprecated-compass) - Fork with Compass ([deprecated](https://github.com/Compass/compass/issues/1999))
     * [fork-versions/typey](fork-versions/typey) - Fork with Typey
     * [fork-versions/typey-chroma-kss](fork-versions/typey-chroma-kss) - Fork with Typey, Chroma and KSS
 
