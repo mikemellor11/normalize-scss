@@ -31,9 +31,13 @@
   },
   "scripts": {
     "test": "mocha",
-    "posttest": "eslint test"
+    "posttest": "eslint test",
+    "changelog": "auto-changelog --commit-limit false --unreleased",
+    "preversion": "npm test",
+    "version": "auto-changelog --commit-limit false --package && git add CHANGELOG.md"
   },
   "devDependencies": {
+    "auto-changelog": "^1.4.0",
     "chai": "^4.1.2",
     "chroma-sass": "^1.2.3",
     "eslint": "^4.12.1",
