@@ -4,7 +4,8 @@
 
 For use with…                | normalize-scss version
 -----------------------------|-----------------------
-Sass 3.4 or libSass | [7.0.0](https://github.com/JohnAlbin/normalize-scss/releases/tag/7.0.0)<br> combining normalize.css v7.0.0 with v1.1.3
+Sass 3.4 or libSass | [8.0.0](https://github.com/JohnAlbin/normalize-scss/releases/tag/8.0.0)<br> combining normalize.css v7.0.0 with v1.1.3
+Compass or Bower | [7.0.0](https://github.com/JohnAlbin/normalize-scss/releases/tag/7.0.0)<br> combining normalize.css v7.0.0 with v1.1.3 (last version with Compass and Bower support)
 Ruby Sass 3.3       | [3.0.3](https://github.com/JohnAlbin/normalize-scss/releases/tag/3.0.3)<br> combining normalize.css v3.0.3 with v1.1.3
 Ruby Sass 3.2       | [2.2.0+normalize.2.1.3](https://github.com/JohnAlbin/normalize-scss/releases/tag/2.2.0%2Bnormalize.2.1.3)<br> combining normalize.css v2.1.3 with v1.1.3
 
@@ -42,7 +43,6 @@ Install using one of the following methods:
 
 * Download directly from the [project page](https://github.com/JohnAlbin/normalize-scss/releases).
 * Install with [npm](http://npmjs.org/): `npm install --save normalize-scss`
-* Install with [Bower](http://bower.io/): `bower install --save normalize.scss`
 * Install with [Ruby Gem](https://rubygems.org/gems/normalize-scss): `gem install normalize-scss`<br>
   and, optionally, add `require "normalize-scss"` to your config.rb file. Note: if you want to alter the _normalize.scss file after installation (see "how to use it" below), you can use the `gem list --details normalize-scss` command to show you where the normalize-scss files were installed.
 
