@@ -1,6 +1,11 @@
 lib/
 test/
-normalize-scss.gemspec
+v*/
 .travis.yml
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+normalize-scss.gemspec
 package-lock.json
+sache.json
 yarn.lock
