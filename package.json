@@ -38,7 +38,7 @@
     "version": "npm run gemspec && auto-changelog --commit-limit false --package && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "auto-changelog": "^1.4.0",
+    "auto-changelog": "1.8.0",
     "chai": "^4.1.2",
     "chroma-sass": "^1.2.3",
     "eslint": "^4.12.1",
